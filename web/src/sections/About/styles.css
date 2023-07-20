@@ -5,6 +5,10 @@
   background-color: var(--color-bg-in-white);
 }
 
+.carroca{
+  position: relative;
+}
+
 .aboutHeader h4{
   text-align: center;
   text-transform: uppercase;

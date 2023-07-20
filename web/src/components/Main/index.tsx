@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 
-import ButtonContact from "../ButtonContact";
 import SocialLinks from "../SocialLinks";
 
 import openMenu from '../../assets/images/icons/openMenuBlue.svg'
 import closeMenu from '../../assets/images/icons/close.svg'
+import whatsapp from '../../assets/images/icons/whatsapp.svg'
 import logoCentroClinicaName from '../../assets/images/CentoClinicaWhite.png'
 import logoCentroClinica from '../../assets/images/CentroClinicaLogo.png'
+
 
 import './styles.css'
 
@@ -65,33 +66,36 @@ const Menu: React.FC<MenuProps> = ({ isOpen, toggleMenu }) => {
 
       {isOpen && (
         <ul className={`menu-options ${isOpen ? 'open' : ''}`}>
-          <li>
+          <li className="liOptions">
             <a href="#start" onClick={handleToggleMenu}>
               Início
             </a>
           </li>
-          <li>
+          <li className="liOptions">
             <a href="#services" onClick={handleToggleMenu}>
               Serviços
             </a>
           </li>
-          <li>
+          <li className="liOptions">
             <a href="#about" onClick={handleToggleMenu}>
               Sobre
             </a>
           </li>
-          <li>
+          <li className="liOptions"> 
             <a href="#contact" onClick={handleLinkClick}>
               Contato
             </a>
           </li>
-          <li>
+          <li className="liOptions">
             <a href="#photos" onClick={handleToggleMenu}>
               Fotos
             </a>
           </li>
           
-          <ButtonContact />
+          <a className="buttonContact" href="https://wa.me/5585985771554?text=Ol%C3%A1%2C+gostaria+de+marcar+uma+consulta++" target="_blank" rel="noreferrer">
+            <img src={whatsapp} alt="Logo whatsapp" />  
+              Agende sua consulta
+          </a>
           <SocialLinks/>
         </ul>
       )}
