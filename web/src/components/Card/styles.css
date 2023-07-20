@@ -1,0 +1,126 @@
+.headerCard {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+
+  align-items: center;
+  padding-right: 20px;
+
+  border-bottom: 1px solid rgba(122, 122, 122, 0.275);
+}
+
+.Card{
+  max-width: 30rem;
+  height: 20rem;
+
+  margin: 10rem auto 5rem;
+
+  border: 1px solid rgba(98, 97, 97, 0.22);
+  border-radius: 6px;
+
+}
+
+.Card .headerCard h4 {
+  text-transform: initial;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 3.1rem;
+
+  padding: 2rem 2rem 1rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  text-shadow: 1px 1px 2px;
+  color: var(--color-primary-darker);
+}
+
+.additional-content {
+  background-color: #cf0000;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.openCard {
+  opacity: 0;
+  visibility: hidden;
+}
+
+
+
+
+
+
+
+.imageCard {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.buttonOpenCard {
+  background-color: hsl(229.85deg 100% 28.35% / 67%);
+
+  width: 100%;
+  height: 4rem;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+
+  color: #f0f9ff;
+
+  margin-top: 1rem;
+  border-radius: 6px;
+  box-shadow: 0px 0px 5px 1px #00000073;
+}
+
+.Card .buttonOpenCard:hover {
+  transition: 0.0s ease;
+  filter: contrast(2);
+}
+
+.infoCardExpended{
+  margin-top: -13.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.infoCardExpended p {
+  font-family: 'Archivo';
+  text-align: center;
+  font-style: normal;
+  font-size: 1.4rem;
+
+  color: var(  --color-text-complement);
+  background-color: #fffaf173; /*#c5dae*/
+  border-radius: 15px 0;
+
+  padding: 10px;
+  margin-bottom: initial;
+}
+
+.infoCardExpended .buttonCardContact {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+
+  background-color: #29BE65;
+  padding: 1rem 4.2rem;
+  border-radius: 4rem;
+  color: #f0f9ff;
+  display: inline-flex;
+  align-items: center;
+  gap: 2.6rem;
+  
+  transition: 0.2s ease-in;
+  box-shadow: 0px 0px 5px 2px #00000073;
+}
+
+.infoCardExpended .buttonCardContact:hover {
+  filter: contrast(2);
+}
+

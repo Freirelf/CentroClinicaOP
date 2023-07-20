@@ -1,0 +1,44 @@
+.services {
+  padding-inline: 2.4rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.services h4{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 150%;
+  text-shadow: 1px 1px 2px;
+
+  color: var(--titleTextColor);
+
+  margin-bottom: 1.6rem;  
+}
+
+.services h2{
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 3.9rem;
+  text-align: center;
+
+  color: #212529;
+  text-shadow: 1px 1px 2px;
+
+  margin-bottom: 5rem;
+}
+
+em {
+  text-align: center;
+}
+
+.cards {
+  width: min(60rem, 100%);
+  margin-inline: auto;
+  padding: 1rem 0;
+
+  background-image: url('../../assets/images/backgroundCards.png ');
+  background-attachment: fixed;
+  background-position: center;
+}

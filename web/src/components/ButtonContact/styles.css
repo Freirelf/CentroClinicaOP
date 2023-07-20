@@ -1,0 +1,27 @@
+a.buttonContact {
+  text-decoration: none;
+
+  font-weight: 700;
+  font-family: 'Archivo', sans-serif;
+  font-size: 1.6rem;
+
+  background-color: var(--color-secondary);
+  color: var(--color-button-text);
+
+  border-radius:  20px;
+
+  margin-top: 2rem;
+  margin-bottom: 6rem;
+  padding: 10px;
+
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+
+  box-shadow: 0px 0px 5px 2px #00000042;
+  transition: background-color 0.2s;
+}
+
+a.buttonContact:hover{
+  background-color: var(--color-secondary-dark);
+}

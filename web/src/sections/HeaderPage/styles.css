@@ -1,0 +1,108 @@
+.header-page {
+  background-image: url('../../assets/images/fundo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding-inline: 2.4rem;
+  padding-top: 15rem;
+  padding-bottom: 6rem;
+}
+
+header .header h4 {
+  font-family: 'Archivo', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: var(--color-primary-darker);
+  margin-bottom: 1.6rem;
+
+  text-shadow: 1px 1px 2px;
+}
+
+header .header h1 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.4rem;
+  line-height: 130%;
+
+  margin-bottom: 2.4rem;
+
+  color: var(--titleTextColor);
+  text-shadow: 1px 1px 2px;
+}
+
+header .header p {
+  font-family: 'Archivo', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 150%;
+
+  margin-bottom: 3.2rem;
+
+  color: var(--color-text-base);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.jewelDoctor{
+  background-image: url('../../assets/images/fundo.png');
+  box-shadow: inset 0px 0px 5px 1px #0000001c;
+  border-radius: 5px;
+}
+
+.jewelDoctor img {
+  max-width: 100%;
+}
+
+.stats {
+  width: 100%;
+  height: 60rem;
+
+  margin: auto;
+  margin-top: -4px;
+  text-align: center;
+
+  background-color: #fffaf1;
+  box-shadow: 0px 0px 3px 1px #0000004e;
+}
+
+.stat h3 {
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 130%;
+
+  color: var(--backgroundColorButton);
+
+  text-shadow: 1px 1px 2px;
+}
+
+.stats p {
+  font-family: 'Archivo', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 150%;
+
+  margin-bottom: 3.2rem;
+
+  color: var(--color-text-base);
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+
+.stat + .stat {
+  border-top: 1px solid rgba(194, 191, 191, 0.486);
+}

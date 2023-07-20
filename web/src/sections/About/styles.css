@@ -1,0 +1,79 @@
+.about {
+  padding-inline: 2.4rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: var(--color-bg-in-white);
+}
+
+.aboutHeader h4{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 150%;
+  text-shadow: 1px 1px 2px;
+
+  color: var(--titleTextColor);
+
+  margin-bottom: 1.6rem;  
+}
+
+.aboutHeader h2{
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 3.9rem;
+  text-align: center;
+
+  color: #212529;
+  text-shadow: 1px 1px 2px;
+
+  margin-bottom: 5rem;
+}
+
+.aboutHeader p {
+  font-family: 'Archivo';
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 150%;
+
+  margin: 2.4rem 0;
+
+  text-align: left;
+}
+
+#convenios {
+  margin-top: 2rem;
+  background-color: var(  --color-line-in-white);
+}
+
+#convenios ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  padding-left: initial;
+}
+
+#convenios ul li img {
+  width: 100%;
+}
+
+h5.title {
+  background-color: black;
+  font-family: 'Archivo';
+  font-weight: 700;
+  color: #c5a204;
+}
+
+p.info{
+  background-color: #dbdfe4;
+
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 150%;
+}
+
+
