@@ -1,0 +1,36 @@
+.navigationWeb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+
+.navigationWeb img {
+  margin-left: 12rem;
+}
+
+.navigationWeb ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8rem;
+  margin-right: 30rem;
+
+  margin-bottom: initial;
+}
+
+.navigationWeb ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 150%;
+  color: var(--color-primary-darker);
+  transition: color 0.2s ease-in;
+}
+
+.navigationWeb ul li a:hover {
+  color: var(--color-primary-lighter);
+}
+
