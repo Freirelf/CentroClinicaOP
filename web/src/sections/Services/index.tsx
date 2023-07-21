@@ -18,9 +18,11 @@ function Services() {
 
   return (
     <div id="services" className="services">
-      <h4>Serviços</h4>
-      <h2>Como podemos ajudá-lo(a) a se sentir melhor?</h2>
+      <div className="servicesHeader">
+        <h4>Serviços</h4>
+        <h2>Como podemos ajudá-lo(a) a se sentir melhor?</h2>
         
+      </div>
       <em>
         <p id="observation">*Consulte as especialidades com atendimento por convênios.</p> 
       </em>

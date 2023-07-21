@@ -5,9 +5,6 @@
   background-color: var(--color-bg-in-white);
 }
 
-.carroca{
-  position: relative;
-}
 
 .aboutHeader h4{
   text-align: center;
@@ -78,6 +75,38 @@ p.info{
   font-weight: 400;
   font-size: 1.4rem;
   line-height: 150%;
+}
+
+@media (min-width: 1024px) {
+  .aboutHeader {
+    width: 80%;
+  }
+
+  .aboutDiv {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 5rem;
+  }
+
+  .carouselDiv {
+    width: 70%;
+  }
+
+  .aboutHeader p, p.info {
+    font-size: 1.6rem;
+  }
+
+  .about {
+    padding-top: 16rem;
+  }
+
+  #convenios ul {
+    gap: 16rem;
+    margin-top: -2rem;
+    padding: 1rem;
+  }
+
 }
 
 

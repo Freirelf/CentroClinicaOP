@@ -8,22 +8,23 @@ import './styles.css';
 function PageHeader() { 
   return (
     <div id="start" className="header-page">
-        <div className="header">
-          <header>
-            <h4>BOAS VINDAS A CENTRO CLÍNICA &#128075;</h4>
-            <h1>Assistência médica simplificada para todos</h1>
-          </header>
-          <p>
-            Os médicos da Centro Clínica vão além dos sintomas para tratar a causa raiz de sua doença e proporcionar uma cura a longo prazo.
-          </p>
-          <ButtonContact />
-        </div>
-
-        <div className="content">
-          <div className="jewelDoctor">
-            <img src={jewelDoctor} alt="Doctor giving a gem to hand in blue lab coat" />
+        <div className="division">
+          <div className="header">
+            <header>
+              <h4>BOAS VINDAS A CENTRO CLÍNICA 13 DE MAIO &#128075;</h4>
+              <h1>Assistência médica simplificada para todos</h1>
+            </header>
+            <p>
+              Os médicos da Centro Clínica vão além dos sintomas para tratar a causa raiz de sua doença e proporcionar uma cura a longo prazo.
+            </p>
+            <ButtonContact />
           </div>
-
+          
+            <div className="jewelDoctor">
+              <img src={jewelDoctor} alt="Doctor giving a gem to hand in blue lab coat" />
+            </div>
+        </div>
+          <div className="content">
             <div className="stats">
               <div className="stat">
                 <h3>+5.000</h3>

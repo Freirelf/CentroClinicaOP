@@ -63,3 +63,18 @@ padding: 1rem 1rem  1rem 0;
   text-align: center
 }
 
+@media (min-width: 1024px) {
+  .footer {
+    justify-content: space-around;
+    padding: 3rem;
+  }
+
+  .linksFooter ul li a, .footer p, .dev{
+    font-size: 1.6rem;
+  }
+
+  .linksFooter ul li a:hover{
+    color: #fff;
+  }
+}
+

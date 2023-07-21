@@ -1,6 +1,6 @@
 .services {
   padding-inline: 2.4rem;
-  padding-top: 6rem;
+  padding-top: 10rem;
   padding-bottom: 6rem;
 }
 
@@ -42,4 +42,34 @@ em {
   background-image: url('../../assets/images/backgroundCards.png ');
   background-attachment: fixed;
   background-position: center;
+}
+
+@media (min-width: 1024px) {
+
+  .services {
+    padding-inline: initial;
+  }
+
+  .servicesHeader {
+    width: 50rem;
+    margin: 0 auto;
+  }
+
+  .cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 12px 1px #55555538
+  }
+
+  em {
+    font-size: 1.6rem;
+  }
+
+  .services {
+    padding-bottom: initial;
+  }
+
 }

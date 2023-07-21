@@ -48,12 +48,6 @@
   visibility: hidden;
 }
 
-
-
-
-
-
-
 .imageCard {
   margin-top: 2rem;
   text-align: center;
@@ -123,4 +117,16 @@
 .infoCardExpended .buttonCardContact:hover {
   filter: contrast(2);
 }
+
+@media (min-width: 1024px) {
+  .Card{
+    max-width: initial;
+    width: 36rem!important;
+  }
+
+  .infoCardExpended p{
+    font-size: 1.6rem;
+  }
+}
+
 

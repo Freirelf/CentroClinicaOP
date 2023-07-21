@@ -3,6 +3,7 @@ import ButtonContact from '../../components/ButtonContact'
 import email from '../../assets/images/icons/mail.svg'
 import mapPin from '../../assets/images/icons/map-pin-blue.svg'
 import telephone from '../../assets/images/icons/telefone.svg'
+import whatsappBlue from '../../assets/images/icons/whatsappBlue.svg'
 
 import './styles.css'
 
@@ -22,8 +23,13 @@ function Contact(){
         </p>
 
         <p>
+          <img src={whatsappBlue} alt="whatsapp" />
+          (85) 98577-1554 | (85) 981098431
+        </p>
+
+        <p>
            <img src={telephone} alt="telephone" /> 
-          (85) 3879-2205 | 3878-2204 | 3276-4655
+          (85) 3879-2205 | 3878-2204 | 3272-2476 | 3122-9742
         </p>
 
         <ButtonContact />

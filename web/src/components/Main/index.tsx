@@ -20,7 +20,6 @@ const Menu: React.FC<MenuProps> = ({ isOpen, toggleMenu }) => {
   
   const [imageSrcLogo, setImageSrc] = useState(logoCentroClinica)
   
-
   const handleToggleMenu = () => {
     toggleMenu();
     setImageSrc(isOpen ? logoCentroClinica : logoCentroClinicaName)

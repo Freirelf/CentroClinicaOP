@@ -41,7 +41,7 @@ header .header p {
 
   margin-bottom: 3.2rem;
 
-  color: var(--color-text-base);
+  color: var(  --color-primary-darker);
 }
 
 .content {
@@ -70,6 +70,7 @@ header .header p {
 
   background-color: #fffaf1;
   box-shadow: 0px 0px 3px 1px #0000004e;
+  border-radius: 5px 0 0 5px;
 }
 
 .stat h3 {
@@ -77,7 +78,7 @@ header .header p {
   font-size: 4.8rem;
   line-height: 130%;
 
-  color: var(--backgroundColorButton);
+  color: var(--titleTextColor);
 
   text-shadow: 1px 1px 2px;
 }
@@ -105,4 +106,48 @@ header .header p {
 
 .stat + .stat {
   border-top: 1px solid rgba(194, 191, 191, 0.486);
+}
+
+
+@media (min-width: 1024px) {
+
+  header .header {
+    margin-top: 1rem;
+    width: 60rem;
+  }
+
+  .division {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+  }
+
+  .stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 25rem;
+    width: 75%;
+    margin-right: 10rem;
+    margin-top: -2rem;
+    border-radius: 5px 0 0 5px;
+  }
+
+  .stat {
+    display: initial;
+    padding-top: initial;
+    padding-bottom: initial;
+
+  }
+
+  .stat + .stat {
+    border-top: initial;
+    border-left: 1px solid rgba(194, 191, 191, 0.486);
+    padding-left: 7rem;
+  }
+
+
+
 }

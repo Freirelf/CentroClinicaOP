@@ -114,3 +114,38 @@ input, textarea {
 input:invalid {
   border: 1px solid #ff1010;
 } 
+
+@media (min-width: 1024px) {
+  #contact {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 13rem;
+  }
+
+  form{
+    margin-left: 20rem;
+    margin-right: 3rem;
+  }
+
+  input, textarea, label, .contact p {
+    font-size: 1.6rem !important;
+  }
+
+  .contact p {
+    background-color: #ffffff7a;
+    padding: 1rem 0 1rem 2rem;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 0px #0000003b;
+
+    cursor: pointer;
+  }
+
+  .contact p:hover {
+    background-color: #fff;
+  }
+
+  .contact p img {
+    padding-right: 1rem;
+  }
+}

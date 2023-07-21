@@ -39,7 +39,7 @@ function Footer(){
             <li>
               <a className="contactFooter" href="#contact">
                 <img src={telephone} alt="telephone" />
-                  (85) 3879-2205 | 3878-2204 | 3276-4655 | 3122-9742
+                  (85) 3879-2205 | 3878-2204 | 3272-2476 | 3122-9742
               </a>
             </li>
           </ul>
