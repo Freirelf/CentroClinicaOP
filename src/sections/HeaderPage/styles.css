@@ -8,7 +8,7 @@
   padding-bottom: 6rem;
 }
 
-header .header h4 {
+.header header h4 {
   font-family: 'Archivo', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -19,7 +19,7 @@ header .header h4 {
   text-shadow: 1px 1px 2px;
 }
 
-header .header h1 {
+.header header h1 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -32,7 +32,7 @@ header .header h1 {
   text-shadow: 1px 1px 2px;
 }
 
-header .header p {
+.header p {
   font-family: 'Archivo', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -111,7 +111,7 @@ header .header p {
 
 @media (min-width: 1024px) {
 
-  header .header {
+  .header header {
     margin-top: 1rem;
     width: 60rem;
   }
@@ -149,5 +149,5 @@ header .header p {
   }
 
 
-
+ 
 }

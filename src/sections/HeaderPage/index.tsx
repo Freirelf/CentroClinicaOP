@@ -13,10 +13,10 @@ function PageHeader() {
             <header>
               <h4>BOAS VINDAS A CENTRO CLÍNICA 13 DE MAIO &#128075;</h4>
               <h1>Assistência médica simplificada para todos</h1>
-            </header>
-            <p>
+              <p>
               Os médicos da Centro Clínica vão além dos sintomas para tratar a causa raiz de sua doença e proporcionar uma cura a longo prazo.
             </p>
+            </header>
             <ButtonContact />
           </div>
           

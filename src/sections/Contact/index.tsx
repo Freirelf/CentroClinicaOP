@@ -9,6 +9,7 @@ import './styles.css'
 
 
 
+
 function Contact(){
   return (
     <div id="contact" >
@@ -36,8 +37,10 @@ function Contact(){
       </div>
 
       <form action="https://formsubmit.co/saicon.vd@hotmail.com" method="post" id="form">
-        <input type="hidden" name="_next" value="https://freirelf.github.io/Centro-Clinica/formSucess.html" />
-      
+        <input type="hidden" name="_next" value="http://localhost:3000/success"  />
+
+     
+
         <input type="hidden" name="_autoresponse" value="Recebemos suas informações, obrigado pelo contato, logo retornaremos!" />
         <fieldset >
           <div className="fieldset-wrapper">
