@@ -7,9 +7,6 @@ import whatsappBlue from '../../assets/images/icons/whatsappBlue.svg'
 
 import './styles.css'
 
-
-
-
 function Contact(){
   return (
     <div id="contact" >
@@ -37,11 +34,9 @@ function Contact(){
       </div>
 
       <form action="https://formsubmit.co/saicon.vd@hotmail.com" method="post" id="form">
-        <input type="hidden" name="_next" value="http://localhost:3000/success"  />
-
-     
-
+        <input type="hidden" name="_next" value="https://centroclinica13demaio.vercel.app/success"  />   
         <input type="hidden" name="_autoresponse" value="Recebemos suas informações, obrigado pelo contato, logo retornaremos!" />
+
         <fieldset >
           <div className="fieldset-wrapper">
             <legend>Olá, conte-nos como podemos ajuda-lo(a)</legend>
@@ -68,10 +63,6 @@ function Contact(){
           <input type="submit" form="form" value="Enviar"/>
         </div>
       </form>
-
-
-      
-
     </div>
   )
 }
