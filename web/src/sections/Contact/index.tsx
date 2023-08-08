@@ -19,7 +19,7 @@ function Contact(){
           Rua Doutor Costa Araújo, 1210, Fátima</p>
         <p>
           <img src={email} alt="email" />
-          centroclinica13demaio@hotmail.com
+          centroclinica13demaio@hotmail.com            
         </p>
 
         <p>

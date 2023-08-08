@@ -2,7 +2,7 @@
   padding-inline: 2.4rem;
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-color: var(--color-bg-in-white);
+  background-color: #faf2e5;
 }
 
 
@@ -28,7 +28,6 @@
   color: #212529;
   text-shadow: 1px 1px 2px;
 
-  margin-bottom: 5rem;
 }
 
 .aboutHeader p {
@@ -40,14 +39,16 @@
   margin: 2.4rem 0;
 
   text-align: left;
+
+  color: #707070;
 }
 
-#convenios {
+.convenios {
   margin-top: 2rem;
   background-color: var(  --color-line-in-white);
 }
 
-#convenios ul {
+.convenios ul {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -56,7 +57,7 @@
   padding-left: initial;
 }
 
-#convenios ul li img {
+.convenios ul li img {
   width: 100%;
 }
 
@@ -98,10 +99,10 @@ p.info{
   }
 
   .about {
-    padding-top: 16rem;
+    padding-top: 8rem;
   }
 
-  #convenios ul {
+  .convenios ul {
     gap: 16rem;
     margin-top: -2rem;
     padding: 1rem;

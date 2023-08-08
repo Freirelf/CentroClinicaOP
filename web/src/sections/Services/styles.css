@@ -60,7 +60,8 @@ em {
     display: flex;
     flex-wrap: wrap;
 
-    border-radius: 5px;
+    padding-bottom: 6rem;
+
     box-shadow: inset 0px 0px 12px 1px #55555538
   }
 

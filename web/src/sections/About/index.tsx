@@ -27,11 +27,19 @@ function About() {
           <div className="aboutHeader">
             <h4>Sobre nos</h4>
             <h2>Entenda quem somos e por que existimos</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt maxime, deleniti atque excepturi tenetur magnam ducimus harum nam, quos in vel dolor ad velit autem enim rerum iure. Libero, maxime Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ipsum facilis explicabo natus ut accusantium enim in animi reiciendis facere laborum repellat, molestias obcaecati quibusdam optio provident cum aliquid omnis.</p>
+            <p>
+              Bem-vindos à Centro clínica 13 de maio! Há mais de 5 anos, temos o prazer de cuidar da saúde e do bem-estar das pessoas com dedicação e comprometimento.<br/>
+              <br/>
+              Nossa clínica oferece um ambiente aconchegante e moderno, pensado para proporcionar conforto aos nossos pacientes. Aqui, prezamos pela qualidade em todos os aspectos, desde o atendimento até a limpeza das nossas instalações. Nossa equipe é composta por profissionais capacitados e dedicados, prontos para cuidar de você de maneira individualizada e respeitosa.<br/>
+              <br/>
+              Agradecemos a confiança que nossos pacientes depositam em nós e estamos ansiosos para fazer parte da sua jornada rumo a uma vida mais saudável e feliz.<br/>
+              <br/>
+              Seja bem-vindo à nossa clínica, onde o seu bem-estar é a nossa prioridade!
+            </p>
           </div>
               
           <div className="carouselDiv">
-            <Carousel id="photos" data-bs-theme="dark">
+            <Carousel  data-bs-theme="dark">
               <Carousel.Item >
                 <img
                   className="d-block w-100"
@@ -115,7 +123,7 @@ function About() {
           </div>
         </div>
 
-    <div id="convenios">
+    <div className="convenios">
         <ul>
           <li><img src={unimed} alt="Icon unimed" /></li>
           <li><img src={ipm} alt="Icon ipm" /></li>

@@ -32,37 +32,37 @@ function Services() {
         <Card 
           title= 'Ginecologista'
           image= {gynecology} alt="female reproductive system" 
-          info= 'É o responsável pela saúde da mulher! Com atenção especial ao órgão genital feminino (Incluindo vagina e órgãos internos, como trompas, úteros e ovários) e as mamas'
+          info= 'Dr. Virgílio Dourado e Dra. Márcia Sá, responsáveis pela saúde da mulher, com atenção especial ao órgão genital feminino (Incluindo vagina, trompas, úteros e ovários) e as mamas.'
         />
 
         <Card 
           title= 'Cirurgião geral'
           image= {generalSurgeon} alt="operating table"
-          info= 'Médico especialista treinado para o manejo cirúrgico das afecções mais diversas do organismo como um todo, com ênfase no trauma, urgência e emergência.'
+          info= 'Dr. Virgílio Dourado, médico especialista treinado para o manejo cirúrgico das afecções mais diversas do organismo como um todo, com ênfase no trauma, urgência e emergência.'
         />
 
         <Card 
           title= 'Proctologista'
           image= {proctology} alt="digestive system"
-          info= 'Especializado no diagnóstico e tratamento de doenças/alterações relacionadas à parte final do sistema digestivo, o que inclui o intestino grosso (cólon), ânus e reto.'
+          info= 'Dr. Ney Feitosa, especializado no diagnóstico e tratamento de doenças/alterações relacionadas à parte final do sistema digestivo, o que inclui o intestino grosso (cólon), ânus e reto.'
         />
 
         <Card 
           title= 'Ortopedista'
           image= {orthopedics} alt="bone part"
-          info= 'Especialista em diagnosticar e acompanhar lesões que acometem todo sistema locomotor. Doenças e traumas que afetam músculos, articulações, ossos e ligamentos.'
+          info= 'Dr. Frederico Uchôa, especialista em diagnosticar e acompanhar lesões que acometem todo sistema locomotor. Doenças e traumas que afetam músculos, articulações, ossos e ligamentos.'
         />
 
         <Card 
           title= 'Urologista'
           image= {urology} alt="urinary system"
-          info= 'Especialista por tratar/diagnosticar as doenças do trato urinário e doenças relativas às glândulas suprarrenais. Trata a saúde da bexiga, rins, uretra e ureteres.'
+          info= 'Dr. Everton de castro, especialista por tratar/diagnosticar as doenças do trato urinário e doenças relativas às glândulas suprarrenais. Trata a saúde da bexiga, rins, uretra e ureteres.'
         />
 
         <Card 
           title= 'Psiquiatria'
           image= {psychiatry} alt="nervous system"
-          info= 'Especialista em diagnóstico de desordens mentais, como depressão, ansiedade, esquizofrenia e até mesmo de casos de dependência em substâncias químicas.'
+          info= 'Dra. Bruna Dourado e Dra. Edvanda Dourado, especialistas em diagnóstico de desordens mentais, como depressão, ansiedade, esquizofrenia e até mesmo de casos de dependência em substâncias químicas.'
         />  
 
         <Card 
@@ -74,13 +74,13 @@ function Services() {
         <Card 
           title= 'Fisioterapia'
           image= {physiotherapy} alt="bone column"
-          info= 'Especialista em prevenção, habilitação e reabilitação, realiza diagnósticos específicos e desenvolve programas de prevenção, promoção de saúde e qualidade de vida.'
+          info= 'Dra. Renata Melo, especialista em prevenção, habilitação e reabilitação, realiza diagnósticos específicos e desenvolve programas de prevenção, promoção de saúde e qualidade de vida.'
         /> 
 
         <Card 
           title= 'Odontologia'
           image= {dentistry} alt="tooth"
-          info= 'Responsável pelo tratamento da saúde e estética bucal. A respeito dos dentes, gengiva, ossos da face, maxilar, mordida e demais áreas que envolvem a boca.'
+          info= 'Dra. Danielle Dourado, responsável pelo tratamento da saúde e estética bucal. A respeito dos dentes, gengiva, ossos da face, maxilar, mordida e demais áreas que envolvem a boca.'
         />
         
       </div>

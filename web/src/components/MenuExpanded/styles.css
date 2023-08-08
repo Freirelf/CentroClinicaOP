@@ -14,7 +14,7 @@
   align-items: center;
   justify-content: center;
   gap: 8rem;
-  margin-right: 30rem;
+  margin-right: 23rem;
 
   margin-bottom: initial;
 }
@@ -30,7 +30,24 @@
   transition: color 0.2s ease-in;
 }
 
+.navigationWeb ul li a.buttonNavContact{
+  text-transform: initial;
+  border: 2px solid var(--color-primary-lighter);
+  padding: 1rem;
+  border-radius: 5rem;
+  padding-left: 2rem;
+}
+
+.navigationWeb ul li a.buttonNavContact:hover{
+  color: var(-color-primary-lighter);
+
+}
+
 .navigationWeb ul li a:hover {
   color: var(--color-primary-lighter);
+}
+
+nav ul li.active a {
+  border-bottom: 2px solid var(--color-primary-lighter);
 }
 
