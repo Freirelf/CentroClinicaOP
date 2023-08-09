@@ -1,10 +1,13 @@
 import React, { useState } from "react";
 
-import SocialLinks from "../SocialLinks";
+
 
 import openMenu from '../../assets/images/icons/openMenuBlue.svg'
 import closeMenu from '../../assets/images/icons/close.svg'
 import whatsapp from '../../assets/images/icons/whatsapp.svg'
+import iconInstagram from '../../assets/images/icons/instagram.svg'
+import iconWhatsapp from '../../assets/images/icons/whatsapp.svg'
+import iconTelephone from '../../assets/images/icons/telephone.svg'
 import logoCentroClinicaName from '../../assets/images/CentoClinicaWhite.png'
 import logoCentroClinica from '../../assets/images/CentroClinicaLogo.png'
 
@@ -95,7 +98,27 @@ const Menu: React.FC<MenuProps> = ({ isOpen, toggleMenu }) => {
             <img src={whatsapp} alt="Logo whatsapp" />  
               Agende sua consulta
           </a>
-          <SocialLinks/>
+
+          <ul className="social-links">
+            <li>
+              <a href="https://www.instagram.com/centroclinica13/" target="_blank" rel="noreferrer">
+              <img src={iconInstagram} alt="Icon Instagram"/>
+              </a>
+            </li>
+
+            <li>
+              <a href={"#contact"} onClick={handleToggleMenu}>
+                <img src={iconTelephone} alt="Icon telephone"/>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://wa.me/5585985771554?text=Ol%C3%A1%2C+gostaria+de+marcar+uma+consulta+para...++" target="_blank" rel="noreferrer">
+                <img src={iconWhatsapp} alt="Icon WhatsApp"/>
+              </a> 
+            </li>
+          </ul>
+
         </ul>
       )}
 

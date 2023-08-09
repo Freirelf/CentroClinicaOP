@@ -112,3 +112,9 @@ ul a.buttonContact:hover{
   background-color: var(--color-secondary-dark);
 }
 
+.social-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.8rem;
+}
