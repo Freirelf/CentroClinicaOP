@@ -81,7 +81,6 @@
 }
 
 .Card .buttonOpenCard:hover {
-  transition: 0.1s ease-in;
   background-color: #71a09f;
 }
 
