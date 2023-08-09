@@ -14,7 +14,7 @@
   align-items: center;
   justify-content: center;
   gap: 8rem;
-  margin-right: 23rem;
+  margin-right: 3rem;
 
   margin-bottom: initial;
 }
@@ -30,17 +30,22 @@
   transition: color 0.2s ease-in;
 }
 
-.navigationWeb ul li a.buttonNavContact{
-  text-transform: initial;
+.navigationWeb a.buttonNavContact{
+  text-decoration: none;
+  font-family: 'Archivo', sans-serif;
+  font-size: 1.6rem;
   border: 2px solid var(--color-primary-lighter);
   padding: 1rem;
   border-radius: 5rem;
-  padding-left: 2rem;
+  margin-right: 7rem;
+
+  color: var(--color-primary-lighter);
+
 
 }
 
-.navigationWeb ul li a.buttonNavContact:hover{
-  color: var(-color-primary-lighter);
+.navigationWeb a.buttonNavContact:hover{
+  color: var(--color-title-in-primary);
   border: 2px solid #d6e8ffed;
   
 

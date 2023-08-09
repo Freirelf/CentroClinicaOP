@@ -67,10 +67,9 @@ const MenuExpanded: React.FC = () => {
             <li className={activeSection === 'contact' ? 'active' : ''}>
               <a href="#contact">Contato</a>
             </li>
-            <li >
-              <a className="buttonNavContact" href="https://wa.me/5585985771554?text=Ol%C3%A1%2C+gostaria+de+marcar+uma+consulta++">Agende sua consulta</a>
-            </li>
+
           </ul>
+          <a className="buttonNavContact" href="https://wa.me/5585985771554?text=Ol%C3%A1%2C+gostaria+de+marcar+uma+consulta++">Agende sua consulta</a>
         </nav>
       )};
       
