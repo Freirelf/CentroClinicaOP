@@ -10,6 +10,7 @@
   background-image: url('../../assets/images/backgroundGradient.png');
   background-position: left center;
   background-repeat: no-repeat;
+  background-size: cover;
 
   z-index: 999; /* Define a ordem de empilhamento para exibir o menu acima do conteúdo subsequente */
   transition: opacity 0.3s ease-in-out;
