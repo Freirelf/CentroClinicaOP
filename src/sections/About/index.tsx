@@ -39,7 +39,7 @@ function About() {
           </div>
               
           <div className="carouselDiv">
-            <Carousel  data-bs-theme="dark">
+            <Carousel  id="convenios" data-bs-theme="dark">
               <Carousel.Item >
                 <img
                   className="d-block w-100"
@@ -118,13 +118,13 @@ function About() {
                   src={recepçãoFrente6}
                   alt="Third slide"
                 />
-              </Carousel.Item>
+              </Carousel.Item >
             </Carousel>
           </div>
         </div>
 
     <div  className="convenios">
-        <ul id="convenios">
+        <ul>
           <li><img src={unimed} alt="Icon unimed" /></li>
           <li><img src={ipm} alt="Icon ipm" /></li>
           <li><img src={issec} alt="Icon do issec" /></li>
