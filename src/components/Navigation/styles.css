@@ -1,5 +1,6 @@
 .navigation-links-menu {
-  background-image: url('../../assets/images/fundo.png');
+  background-image: url('../../assets/images/backgroundGradient.png');
+ 
   background-size: cover;
   position: fixed;
   width: 100%;

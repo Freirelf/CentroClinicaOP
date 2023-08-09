@@ -1,7 +1,7 @@
 .footer {
   margin-top: 10rem;
   padding: 2rem;
-  background-color: var(--backgroundColor);
+  background-color: #73abaa;
 
   display: flex;
 }
@@ -49,11 +49,11 @@ padding: 1rem 1rem  1rem 0;
   font-weight: 400;
   font-size: 1.4rem;
   line-height: 150%;
-  color: var(--color-text-complement);
+  color: #f0f9ff;
 }
 
 .dev {
-  background-color: #000000;
+  background-color: #3c4949;
   font-family: 'Archivo';
   font-weight: 400;
   font-size: 1.4rem;
@@ -74,7 +74,7 @@ padding: 1rem 1rem  1rem 0;
   }
 
   .linksFooter ul li a:hover{
-    color: #fff;
+    color: #e0e0e0;
   }
 }
 

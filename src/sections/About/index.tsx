@@ -123,8 +123,8 @@ function About() {
           </div>
         </div>
 
-    <div className="convenios">
-        <ul>
+    <div  className="convenios">
+        <ul id="convenios">
           <li><img src={unimed} alt="Icon unimed" /></li>
           <li><img src={ipm} alt="Icon ipm" /></li>
           <li><img src={issec} alt="Icon do issec" /></li>

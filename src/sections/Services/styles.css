@@ -1,6 +1,6 @@
 .services {
   padding-inline: 2.4rem;
-  padding-top: 20rem;
+  padding-top: 10rem;
   padding-bottom: 6rem;
 }
 
@@ -40,6 +40,7 @@ em {
   padding: 1rem 0;
 
   background-image: url('../../assets/images/backgroundCards.png ');
+  background-size: cover;
   background-attachment: fixed;
   background-position: center;
 }

@@ -36,10 +36,13 @@
   padding: 1rem;
   border-radius: 5rem;
   padding-left: 2rem;
+
 }
 
 .navigationWeb ul li a.buttonNavContact:hover{
   color: var(-color-primary-lighter);
+  border: 2px solid #d6e8ffed;
+  
 
 }
 
@@ -48,6 +51,7 @@
 }
 
 nav ul li.active a {
-  border-bottom: 2px solid var(--color-primary-lighter);
+  font-weight: bold;
+  border-bottom: 2px solid #d6e8ffed;
 }
 

@@ -55,7 +55,7 @@
 }
 
 .buttonOpenCard {
-  background-color: hsl(229.85deg 100% 28.35% / 67%);
+  background-color: #73abaa;
 
   width: 100%;
   height: 4rem;
@@ -81,8 +81,8 @@
 }
 
 .Card .buttonOpenCard:hover {
-  transition: 0.0s ease;
-  filter: contrast(2);
+  transition: 0.1s ease-in;
+  background-color: #71a09f;
 }
 
 .infoCardExpended{
@@ -98,8 +98,7 @@
   font-size: 1.4rem;
 
   color: var(  --color-primary-light);
-  background-color: #fffaf173; /*#c5dae*/
-  border-radius: 15px 0;
+  background-color: #fffaf173;
 
   padding: 10px;
   margin-bottom: initial;

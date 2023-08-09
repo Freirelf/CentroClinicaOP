@@ -86,8 +86,8 @@ const Menu: React.FC<MenuProps> = ({ isOpen, toggleMenu }) => {
             </a>
           </li>
           <li className="liOptions">
-            <a href="#photos" onClick={handleToggleMenu}>
-              Fotos
+            <a href="#convenios" onClick={handleToggleMenu}>
+              Convênios
             </a>
           </li>
           

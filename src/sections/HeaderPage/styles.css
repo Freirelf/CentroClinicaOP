@@ -1,6 +1,8 @@
 .header-page {
-  background-image: url('../../assets/images/fundo.png');
+  background-image: url('../../assets/images/backgroundGradient.png');
+  background-position: left center;
   background-repeat: no-repeat;
+
   background-size: cover;
 
   padding-inline: 2.4rem;
